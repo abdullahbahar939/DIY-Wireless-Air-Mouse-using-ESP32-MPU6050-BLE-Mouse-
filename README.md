@@ -1,17 +1,25 @@
 # DIY-Wireless-Air-Mouse-using-ESP32-MPU6050-BLE-Mouse-
 
-I’ll show you how to build a custom wireless 3D motion-sensing Air Mouse using an ESP32 microcontroller and an MPU-6050 6-axis gyroscope/accelerometer module. This project acts as a native Bluetooth Low Energy (BLE) Human Interface Device (HID), allowing you to control your computer, laptop, or Android device cursor seamlessly in mid-air—no extra receivers needed!
+I’ll show you how to build a custom wireless 3D motion-sensing Air Mouse using an ESP32 microcontroller and an MPU-6050 6-axis gyroscope/accelerometer module. 
+This project acts as a native Bluetooth Low Energy (BLE) Human Interface Device (HID), allowing you to control your computer, laptop, or Android device cursor seamlessly in mid-air—no extra receivers needed!
+
 📌 Project Overview & Highlights
+
 Native Bluetooth HID: Connects directly via BLE as a standard wireless mouse.
+
 6-Axis Motion Control: MPU6050 sensor reads pitch and roll to translate hand gestures into smooth cursor movements.
 Physical Click Buttons: Dedicated tactile push buttons for Left Click and Right Click.
+
 Low Power & Compact: Optimized pin layout suitable for wearable finger/glove mounting or handheld enclosures.
+
 🛠️ Components & Hardware Required
+
 ESP32 Development Board (ESP32-WROOM-32 / DevKit v1)
 MPU-6050 6-Axis Gyroscope / Accelerometer Sensor
 2x Tactile Push Buttons (Left & Right Mouse Clicks)
 Breadboard & Jumper Wires (or Custom PCB / Perfboard)
 Micro-USB / USB-C Cable (for power & programming)
+
 🔌 Wiring & Pin Connections
 Module / Component
 ESP32 GPIO Pin
