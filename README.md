@@ -45,9 +45,13 @@ GitHub Repository: https://github.com/adafruit/Adafruit_MPU6050
 Adafruit Unified Sensor Library (Prerequisite for MPU6050)
 GitHub Repository: https://github.com/adafruit/Adafruit_Sensor
 🚀 Step-by-Step Making Process
+
 Step 1: Software & Environment Setup
+
 Open Arduino IDE.
+
 Install the ESP32 Board Package via Tools > Board > Boards Manager (search for esp32 by Espressif Systems).
+
 Download the ESP32 BLE Mouse repository as a ZIP file from GitHub and install it via Sketch > Include Library > Add .ZIP Library...
 Go to Tools > Manage Libraries..., search for Adafruit MPU6050, and click Install All (this automatically installs dependent sensor libraries).
 Step 2: Circuit Hardware Assembly
