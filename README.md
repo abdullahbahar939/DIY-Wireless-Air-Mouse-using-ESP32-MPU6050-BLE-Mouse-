@@ -52,6 +52,7 @@ Handles I2C communication and motion data extraction.
 GitHub Repository: https://github.com/adafruit/Adafruit_MPU6050
 Adafruit Unified Sensor Library (Prerequisite for MPU6050)
 GitHub Repository: https://github.com/adafruit/Adafruit_Sensor
+
 🚀 Step-by-Step Making Process
 
 Step 1: Software & Environment Setup
@@ -61,18 +62,27 @@ Open Arduino IDE.
 Install the ESP32 Board Package via Tools > Board > Boards Manager (search for esp32 by Espressif Systems).
 
 Download the ESP32 BLE Mouse repository as a ZIP file from GitHub and install it via Sketch > Include Library > Add .ZIP Library...
+
 Go to Tools > Manage Libraries..., search for Adafruit MPU6050, and click Install All (this automatically installs dependent sensor libraries).
+
 Step 2: Circuit Hardware Assembly
+
 Connect the MPU6050 to the ESP32 using the I2C bus: SDA to GPIO 21 and SCL to GPIO 22.
 Connect VCC to 3.3V and GND to GND.
-Wire the Left Click Button between GPIO 12 and GND.
-Wire the Right Click Button between GPIO 14 and GND.
+Wire the Left Click Button between GPIO 23 and GND.
+Wire the Right Click Button between GPIO 19 and GND.
+
 Step 3: Code Upload & Calibration
+
 Connect your ESP32 to your PC via USB.
 Select your specific ESP32 board and COM port under Tools.
 Upload the Air Mouse firmware sketch.
 Keep the assembly stationary on a flat surface during initial startup for accurate gyro zero-calibration.
+
 Step 4: Pairing & Testing
+
 Enable Bluetooth on your PC, tablet, or smartphone.
+
 Search for new Bluetooth devices and select ESP32 Air Mouse.
+
 Once paired, tilt the assembly to move your mouse cursor and press the buttons to perform left and right clicks.
